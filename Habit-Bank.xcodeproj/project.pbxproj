@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1385DE2C53211300408221 /* Habit_BankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1385DD2C53211300408221 /* Habit_BankApp.swift */; };
+		0C1385E22C53211400408221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1385E12C53211400408221 /* Assets.xcassets */; };
+		0C1385E52C53211400408221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1385E42C53211400408221 /* Preview Assets.xcassets */; };
+		0C1385EF2C53211400408221 /* Habit_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1385EE2C53211400408221 /* Habit_BankTests.swift */; };
+		0C1385F92C53211400408221 /* Habit_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1385F82C53211400408221 /* Habit_BankUITests.swift */; };
+		0C1385FB2C53211400408221 /* Habit_BankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1385FA2C53211400408221 /* Habit_BankUITestsLaunchTests.swift */; };
+		0C1386092C5321FF00408221 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C1386082C5321FF00408221 /* GoogleService-Info.plist */; };
+		0C13860C2C53225300408221 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0C13860B2C53225300408221 /* GoogleSignIn */; };
+		0C13860E2C53225300408221 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0C13860D2C53225300408221 /* GoogleSignInSwift */; };
+		0C1386112C5322C900408221 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1386102C5322C900408221 /* FirebaseAnalytics */; };
+		0C1386132C5322C900408221 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1386122C5322C900408221 /* FirebaseAuth */; };
+		0C1386152C5322C900408221 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1386142C5322C900408221 /* FirebaseDatabase */; };
+		0C1386172C5322C900408221 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1386162C5322C900408221 /* FirebaseDatabaseSwift */; };
+		0C1386192C5322C900408221 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0C1386182C5322C900408221 /* FirebaseFirestore */; };
+		0C13861B2C5322C900408221 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0C13861A2C5322C900408221 /* FirebaseFirestoreSwift */; };
+		0C13861D2C53232F00408221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C13861C2C53232F00408221 /* AppDelegate.swift */; };
+		0C13861F2C53241000408221 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C13861E2C53241000408221 /* User.swift */; };
+		0C1386212C53244800408221 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1386202C53244800408221 /* FirestoreService.swift */; };
+		0C1386232C53247C00408221 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1386222C53247C00408221 /* AuthService.swift */; };
+		0C1386252C5324E300408221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1386242C5324E300408221 /* ContentView.swift */; };
+		0C1386272C53254800408221 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1386262C53254800408221 /* UserListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1385EB2C53211400408221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1385D22C53211300408221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1385D92C53211300408221;
+			remoteInfo = "Habit-Bank";
+		};
+		0C1385F52C53211400408221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C1385D22C53211300408221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1385D92C53211300408221;
+			remoteInfo = "Habit-Bank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C1385DA2C53211300408221 /* Habit-Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habit-Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1385DD2C53211300408221 /* Habit_BankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_BankApp.swift; sourceTree = "<group>"; };
+		0C1385E12C53211400408221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C1385E42C53211400408221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1385EA2C53211400408221 /* Habit-BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit-BankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1385EE2C53211400408221 /* Habit_BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_BankTests.swift; sourceTree = "<group>"; };
+		0C1385F42C53211400408221 /* Habit-BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habit-BankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1385F82C53211400408221 /* Habit_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_BankUITests.swift; sourceTree = "<group>"; };
+		0C1385FA2C53211400408221 /* Habit_BankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit_BankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C1386072C5321ED00408221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C1386082C5321FF00408221 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0C13861C2C53232F00408221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C13861E2C53241000408221 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0C1386202C53244800408221 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		0C1386222C53247C00408221 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0C1386242C5324E300408221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C1386262C53254800408221 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1385D72C53211300408221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1386172C5322C900408221 /* FirebaseDatabaseSwift in Frameworks */,
+				0C1386152C5322C900408221 /* FirebaseDatabase in Frameworks */,
+				0C13860C2C53225300408221 /* GoogleSignIn in Frameworks */,
+				0C13860E2C53225300408221 /* GoogleSignInSwift in Frameworks */,
+				0C1386112C5322C900408221 /* FirebaseAnalytics in Frameworks */,
+				0C1386132C5322C900408221 /* FirebaseAuth in Frameworks */,
+				0C1386192C5322C900408221 /* FirebaseFirestore in Frameworks */,
+				0C13861B2C5322C900408221 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385E72C53211400408221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385F12C53211400408221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1385D12C53211300408221 = {
+			isa = PBXGroup;
+			children = (
+				0C1386222C53247C00408221 /* AuthService.swift */,
+				0C1386242C5324E300408221 /* ContentView.swift */,
+				0C1386262C53254800408221 /* UserListView.swift */,
+				0C13861E2C53241000408221 /* User.swift */,
+				0C1386202C53244800408221 /* FirestoreService.swift */,
+				0C1385DC2C53211300408221 /* Habit-Bank */,
+				0C1385ED2C53211400408221 /* Habit-BankTests */,
+				0C1385F72C53211400408221 /* Habit-BankUITests */,
+				0C1385DB2C53211300408221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1385DB2C53211300408221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1385DA2C53211300408221 /* Habit-Bank.app */,
+				0C1385EA2C53211400408221 /* Habit-BankTests.xctest */,
+				0C1385F42C53211400408221 /* Habit-BankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1385DC2C53211300408221 /* Habit-Bank */ = {
+			isa = PBXGroup;
+			children = (
+				0C1386072C5321ED00408221 /* Info.plist */,
+				0C1385DD2C53211300408221 /* Habit_BankApp.swift */,
+				0C1385E12C53211400408221 /* Assets.xcassets */,
+				0C1386082C5321FF00408221 /* GoogleService-Info.plist */,
+				0C1385E32C53211400408221 /* Preview Content */,
+				0C13861C2C53232F00408221 /* AppDelegate.swift */,
+			);
+			path = "Habit-Bank";
+			sourceTree = "<group>";
+		};
+		0C1385E32C53211400408221 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C1385E42C53211400408221 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C1385ED2C53211400408221 /* Habit-BankTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1385EE2C53211400408221 /* Habit_BankTests.swift */,
+			);
+			path = "Habit-BankTests";
+			sourceTree = "<group>";
+		};
+		0C1385F72C53211400408221 /* Habit-BankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C1385F82C53211400408221 /* Habit_BankUITests.swift */,
+				0C1385FA2C53211400408221 /* Habit_BankUITestsLaunchTests.swift */,
+			);
+			path = "Habit-BankUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1385D92C53211300408221 /* Habit-Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1385FE2C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-Bank" */;
+			buildPhases = (
+				0C1385D62C53211300408221 /* Sources */,
+				0C1385D72C53211300408221 /* Frameworks */,
+				0C1385D82C53211300408221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Habit-Bank";
+			packageProductDependencies = (
+				0C13860B2C53225300408221 /* GoogleSignIn */,
+				0C13860D2C53225300408221 /* GoogleSignInSwift */,
+				0C1386102C5322C900408221 /* FirebaseAnalytics */,
+				0C1386122C5322C900408221 /* FirebaseAuth */,
+				0C1386142C5322C900408221 /* FirebaseDatabase */,
+				0C1386162C5322C900408221 /* FirebaseDatabaseSwift */,
+				0C1386182C5322C900408221 /* FirebaseFirestore */,
+				0C13861A2C5322C900408221 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Habit-Bank";
+			productReference = 0C1385DA2C53211300408221 /* Habit-Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C1385E92C53211400408221 /* Habit-BankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1386012C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-BankTests" */;
+			buildPhases = (
+				0C1385E62C53211400408221 /* Sources */,
+				0C1385E72C53211400408221 /* Frameworks */,
+				0C1385E82C53211400408221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1385EC2C53211400408221 /* PBXTargetDependency */,
+			);
+			name = "Habit-BankTests";
+			productName = "Habit-BankTests";
+			productReference = 0C1385EA2C53211400408221 /* Habit-BankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C1385F32C53211400408221 /* Habit-BankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1386042C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-BankUITests" */;
+			buildPhases = (
+				0C1385F02C53211400408221 /* Sources */,
+				0C1385F12C53211400408221 /* Frameworks */,
+				0C1385F22C53211400408221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C1385F62C53211400408221 /* PBXTargetDependency */,
+			);
+			name = "Habit-BankUITests";
+			productName = "Habit-BankUITests";
+			productReference = 0C1385F42C53211400408221 /* Habit-BankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1385D22C53211300408221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0C1385D92C53211300408221 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0C1385E92C53211400408221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0C1385D92C53211300408221;
+					};
+					0C1385F32C53211400408221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0C1385D92C53211300408221;
+					};
+				};
+			};
+			buildConfigurationList = 0C1385D52C53211300408221 /* Build configuration list for PBXProject "Habit-Bank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1385D12C53211300408221;
+			packageReferences = (
+				0C13860A2C53225300408221 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 0C1385DB2C53211300408221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1385D92C53211300408221 /* Habit-Bank */,
+				0C1385E92C53211400408221 /* Habit-BankTests */,
+				0C1385F32C53211400408221 /* Habit-BankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1385D82C53211300408221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1385E52C53211400408221 /* Preview Assets.xcassets in Resources */,
+				0C1385E22C53211400408221 /* Assets.xcassets in Resources */,
+				0C1386092C5321FF00408221 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385E82C53211400408221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385F22C53211400408221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1385D62C53211300408221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C13861F2C53241000408221 /* User.swift in Sources */,
+				0C1386212C53244800408221 /* FirestoreService.swift in Sources */,
+				0C1386252C5324E300408221 /* ContentView.swift in Sources */,
+				0C1386272C53254800408221 /* UserListView.swift in Sources */,
+				0C13861D2C53232F00408221 /* AppDelegate.swift in Sources */,
+				0C1386232C53247C00408221 /* AuthService.swift in Sources */,
+				0C1385DE2C53211300408221 /* Habit_BankApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385E62C53211400408221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1385EF2C53211400408221 /* Habit_BankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C1385F02C53211400408221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1385F92C53211400408221 /* Habit_BankUITests.swift in Sources */,
+				0C1385FB2C53211400408221 /* Habit_BankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C1385EC2C53211400408221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1385D92C53211300408221 /* Habit-Bank */;
+			targetProxy = 0C1385EB2C53211400408221 /* PBXContainerItemProxy */;
+		};
+		0C1385F62C53211400408221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C1385D92C53211300408221 /* Habit-Bank */;
+			targetProxy = 0C1385F52C53211400408221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C1385FC2C53211400408221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C1385FD2C53211400408221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C1385FF2C53211400408221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habit-Bank/Preview Content\"";
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habit-Bank/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C1386002C53211400408221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Habit-Bank/Preview Content\"";
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Habit-Bank/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C1386022C53211400408221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habit-Bank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habit-Bank";
+			};
+			name = Debug;
+		};
+		0C1386032C53211400408221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habit-Bank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Habit-Bank";
+			};
+			name = Release;
+		};
+		0C1386052C53211400408221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habit-Bank";
+			};
+			name = Debug;
+		};
+		0C1386062C53211400408221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3B4728B37G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HB.Habit-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habit-Bank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1385D52C53211300408221 /* Build configuration list for PBXProject "Habit-Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1385FC2C53211400408221 /* Debug */,
+				0C1385FD2C53211400408221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1385FE2C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1385FF2C53211400408221 /* Debug */,
+				0C1386002C53211400408221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1386012C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-BankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1386022C53211400408221 /* Debug */,
+				0C1386032C53211400408221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1386042C53211400408221 /* Build configuration list for PBXNativeTarget "Habit-BankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1386052C53211400408221 /* Debug */,
+				0C1386062C53211400408221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C13860A2C53225300408221 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+		0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C13860B2C53225300408221 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860A2C53225300408221 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		0C13860D2C53225300408221 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860A2C53225300408221 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		0C1386102C5322C900408221 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0C1386122C5322C900408221 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0C1386142C5322C900408221 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0C1386162C5322C900408221 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		0C1386182C5322C900408221 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0C13861A2C5322C900408221 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C13860F2C5322C900408221 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0C1385D22C53211300408221 /* Project object */;
+}
